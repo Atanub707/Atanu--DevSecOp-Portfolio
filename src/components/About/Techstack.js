@@ -1,68 +1,81 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { DiGit } from "react-icons/di";
+import { FaGithub, FaDocker } from "react-icons/fa";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiGithubactions,
+  SiGitlab,
+  SiDocker,
+  SiJfrog,
+  SiSonarqube,
+  SiSnyk,
+  SiKubernetes,
+  SiAmazonaws,
+  SiGooglecloud,
+  SiMicrosoftazure,
+  SiPrometheus,
+  SiGrafana,
+  SiDatadog,
+  SiNewrelic,
+  SiElastic,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiGit /> {/* Git */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <FaGithub /> {/* GitHub */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiGithubactions /> {/* GitHub Actions */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiGitlab /> {/* GitLab */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <FaDocker /> {/* Docker */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiDocker /> {/* DockerHub */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiJfrog /> {/* JFrog */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiSonarqube /> {/* SonarQube */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiSnyk /> {/* Snyk */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiKubernetes /> {/* Kubernetes */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiAmazonaws /> {/* AWS */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiGooglecloud /> {/* Google Cloud */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiMicrosoftazure /> {/* Microsoft Azure */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiPrometheus /> {/* Prometheus */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGrafana /> {/* Grafana */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDatadog /> {/* Datadog */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNewrelic /> {/* New Relic */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElastic /> {/* Elastic (ELK Stack) */}
       </Col>
     </Row>
   );
