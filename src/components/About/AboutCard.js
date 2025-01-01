@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently employed as a DevSecOps at <span className="purple">HumanManaged</span>.
             <br />
-            I have completed B.Tech IN <span className="purple">Mechanilcal Engineering</span> From Narula Institure of Technology
+            I have completed my B.Tech in <span className="purple">Mechanical Engineering</span> From Narula Institure of Technology
             <br />
             <br />
             Apart from DevSecOps, some other activities that I love to do!

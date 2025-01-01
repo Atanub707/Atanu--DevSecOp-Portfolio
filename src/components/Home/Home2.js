@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,7 +15,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I have fallen in love with the world of DevSecOps, where I get to combine my technical expertise with a security-first mindset. Over time, I’ve honed my skills in programming, mastering classics like C++, JavaScript, and Go, while delving deeper into secure development practices and automation. 🤷‍♂️
+              I have fallen in love with the world of DevSecOps, where I get to combine my technical expertise with a security-first mindset. Over time, I’ve honed my skills in programming, mastering classics like C++, JavaScript, and Go, while delving deeper into secure development practices and automation. 🤷‍♂️
               <br />
               <br />My field of interest lies in building secure, scalable web technologies and products, as well as exploring innovative solutions in areas like Blockchain. I’m passionate about integrating security into every phase of the development
               <i>
@@ -76,32 +72,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
                   href="https://www.linkedin.com/in/atanu-biswas-006796239/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
